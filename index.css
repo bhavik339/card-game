@@ -1,0 +1,54 @@
+html body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#container{
+    background-color: green;
+    max-width: 500px;
+    margin:50px auto;
+    padding: 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+}
+
+#newdeskbtnEl{
+    background-color: yellow;
+    height: 30px;
+}
+
+p#remainingCards {
+    margin-top: 5px;
+}
+
+#Cards{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+#card1 , #card2{
+    height: 100px;
+    width: 70px;
+    border: 1px solid;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+#drawbtnEl{
+    width: 100%;
+    background-color: yellow;
+    padding: 10px;
+}
